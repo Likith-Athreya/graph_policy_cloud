@@ -1,0 +1,11 @@
+[project]
+name = "policy-cloud"
+version = "0.1.0"
+dependencies = [
+  "streamlit==1.31.0",
+  "boto3",
+  "pydantic<2.6"
+]
+
+[tool.streamlit]
+pythonVersion = "3.11"
